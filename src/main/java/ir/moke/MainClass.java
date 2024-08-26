@@ -23,7 +23,7 @@ public class MainClass {
         Writer.showText(bidiReorder(s));
         Writer.endText();
         Writer.close();
-        doc.save(new File("File_Test.pdf"));
+        doc.save(new File("example-output.pdf"));
         doc.close();
     }
 
